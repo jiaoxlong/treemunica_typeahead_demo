@@ -17,6 +17,9 @@
 	}, {
 		"url": "https://demo.netwerkdigitaalerfgoed.nl/fragments/wo2/",
 		"description": "Digital heritage fragments about WW2"
+	},{
+		"url": "https://treecg.github.io/demo_data/era.ttl",
+		"description": "Operational points of European Railway Agency "
 	}],
 	"predicates": [{
 		"value": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -33,10 +36,14 @@
 	}, {
 		"value": "http://www.w3.org/2004/02/skos/core#altLabel",
 		"normalize": true
+	},{
+		"value": "http://data.europa.eu/949/opName",
+		"normalize": true
 	}],
 	"primaryLabels": [
 		"http://schema.org/name",
 		"http://www.w3.org/2004/02/skos/core#prefLabel",
-		"http://www.w3.org/2000/01/rdf-schema#label"
+		"http://www.w3.org/2000/01/rdf-schema#label",
+		"http://data.europa.eu/949/opName"
 	]
 }
